@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env/
+
+# Poetry specific
+.poetry/
+# Only ignore if you are not using it for reproducible builds
+#poetry.lock 
+# If you are building packages, you may want to include `dist/` and `build/`
+# in your .gitignore if you don't want to commit the build artifacts.
+dist/
+build/
+
+# Editor-specific files
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
